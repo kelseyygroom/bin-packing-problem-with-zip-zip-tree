@@ -23,3 +23,6 @@ In this bin packing context, each tree node of the Zip Zip Tree represents a bin
 ## What I Did
 
 I implemented the Zip Zip Tree from scratch, handling insertion, removal, and searching while maintaining the balanced properties of the tree. I then used the Zip Zip Tree as the data structure to represent the bins in the bin packing problem. I created algorithms for First Fit, Best Fit, and Next Fit bin packing, plotting and mapping the data to determine the most efficient algorithm.
+
+## How to Run
+Simply download all test and program files. Store them in the same directory. In the terminal, type: ```python test.py``` to see my code in action with my test cases. Feel free to add additional tests.
