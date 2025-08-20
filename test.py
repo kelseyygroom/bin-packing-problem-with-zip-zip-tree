@@ -3,13 +3,6 @@ import requirements
 from typing import TypeVar, NamedTuple, Callable
 from copy import deepcopy
 
-# Instructions
-# Some test cases for the ZipZipTree and bin packing algorithms can be found in the main block below.
-#
-# Note that passing the test cases here does not necessarily mean that your zip tree or algorithms
-# are correctly implemented / will pass other cases. It is a good idea to try and create different
-# test cases for both.
-
 KeyType = TypeVar('KeyType')
 ValType = TypeVar('ValType')
 
@@ -259,6 +252,6 @@ def my_zip_tests():
 	
 
 if __name__ == '__main__':
-	#zip_tree_tests()
+	zip_tree_tests()
 	bin_packing_tests()
-	#my_zip_tests()
+	my_zip_tests()
